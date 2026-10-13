@@ -1,0 +1,29 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-DCZMAWA0.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "assets": [
+      "assets/archivo-latin-wdth-wght-DY7AcnAa.woff2",
+      "assets/noto-sans-tamil-wght-iihgzMBi.woff2"
+    ]
+  },
+  "resources/fonts/archivo-latin-wdth-wght.woff2": {
+    "file": "assets/archivo-latin-wdth-wght-DY7AcnAa.woff2",
+    "src": "resources/fonts/archivo-latin-wdth-wght.woff2"
+  },
+  "resources/fonts/noto-sans-tamil-wght.woff2": {
+    "file": "assets/noto-sans-tamil-wght-iihgzMBi.woff2",
+    "src": "resources/fonts/noto-sans-tamil-wght.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Cyw3-p0u.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>அதிகமான கோரிக்கைகள் | Kattufy</title>
+    <link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+    <link rel="preload" as="style" href="../../../build/assets/app-DCZMAWA0.css" /><link rel="stylesheet" href="../../../build/assets/app-DCZMAWA0.css" /></head>
+<body class="flex min-h-dvh flex-col">
+    <header class="on-dark bg-ink">
+        <div class="mx-auto flex h-16 max-w-page items-center px-4 sm:px-6 lg:px-8">
+            <a href="../../index.html"><span class="inline-flex items-center gap-2 sm:gap-2.5">
+            <img src="../../../images/kattufy-mark.png" alt="" width="40" height="40" class="size-9 shrink-0 object-contain sm:size-10">
+        <span class="flex flex-col">
+                    <span class="text-[1.3rem] leading-none tracking-tight text-white" style="font-stretch: 118%; font-weight: 780;">Kattu<span class="text-amber">fy</span></span>
+                                        <span lang="en" class="text-[0.6875rem] leading-tight font-medium tracking-[0.01em] whitespace-nowrap mt-1 text-white/65">Where <span class="text-amber">Trust</span> Takes Shape.</span>
+            </span>
+</span>
+</a>
+        </div>
+    </header>
+    <main class="blueprint on-dark flex flex-1 items-center text-white">
+        <div class="mx-auto w-full max-w-page px-4 py-20 sm:px-6 lg:px-8">
+            <p class="text-[0.95rem] font-semibold text-amber" style="font-variant-numeric: tabular-nums">429</p>
+            <h1 class="type-display mt-3 max-w-2xl text-[2.2rem] text-white sm:text-[3rem]">அதிகமான கோரிக்கைகள்</h1>
+            <p class="mt-4 max-w-xl text-lg leading-relaxed text-white/75">குறுகிய நேரத்தில் பல கோரிக்கைகள் வந்துள்ளன. சில நிமிடங்கள் கழித்து மீண்டும் முயலுங்கள்.</p>
+            <div class="mt-8 flex flex-wrap gap-3">
+                <a href="../../index.html" class="inline-flex items-center justify-center gap-2 rounded-control text-center leading-snug font-semibold select-none transition-[background-color,border-color,color,box-shadow,transform] duration-150 ease-out active:translate-y-px disabled:cursor-not-allowed disabled:opacity-60 aria-disabled:cursor-not-allowed aria-disabled:opacity-60 min-h-11 px-5 py-2.5 text-[0.95rem] bg-amber text-ink shadow-[inset_0_-2px_0_rgb(0_0_0/0.08)] hover:bg-amber-600">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false" class="shrink-0 size-5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/></svg>
+        <span>முகப்புப் பக்கம் செல்ல</span>
+            </a>
+                            </div>
+        </div>
+    </main>
+<script>
+document.addEventListener('submit', function (e) {
+  var f = e.target;
+  if ((f.getAttribute('method') || 'get').toLowerCase() !== 'post') return;
+  e.preventDefault();
+  e.stopPropagation();
+  var next = f.getAttribute('data-static-next');
+  var field = f.getAttribute('data-static-field');
+  if (field) {
+    var picked = f.querySelector('[name="' + field + '"]:checked');
+    next = picked ? JSON.parse(f.getAttribute('data-static-map'))[picked.value] : null;
+  }
+  if (next) { window.location.href = next; return; }
+  var dlg = f.closest('dialog'); if (dlg) dlg.close();
+  var n = document.getElementById('static-note');
+  if (!n) { n = document.createElement('div'); n.id = 'static-note'; n.setAttribute('role', 'status');
+    n.style.cssText = 'position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:60;background:#202b33;color:#fff;padding:12px 18px;border-radius:10px;font:500 15px/1.4 system-ui,sans-serif;box-shadow:0 10px 30px rgba(0,0,0,.25);max-width:90vw;text-align:center';
+    document.body.appendChild(n); }
+  n.textContent = 'Static preview: this action needs the running Laravel app (php artisan serve), so nothing was saved.';
+  setTimeout(function () { n.remove(); }, 4000);
+}, true);
+</script>
+</body>
+</html>
