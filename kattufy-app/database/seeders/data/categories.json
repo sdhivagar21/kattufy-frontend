@@ -1,0 +1,122 @@
+{
+ "architects": {
+  "en": [
+   "Architects",
+   "Architects design your home, prepare the drawings needed for planning approval and can supervise construction. Every architect listed here has a Council of Architecture registration checked by the Kattufy team."
+  ],
+  "ta": [
+   "கட்டடக் கலைஞர்கள்",
+   "கட்டடக் கலைஞர்கள் உங்கள் வீட்டை வடிவமைத்து, திட்ட அனுமதிக்குத் தேவையான வரைபடங்களைத் தயாரித்து, கட்டுமானத்தை மேற்பார்வையிடவும் முடியும். இங்குள்ள ஒவ்வொரு கட்டடக் கலைஞரின் இந்தியக் கட்டடக் கலைக் குழுமப் பதிவையும் கட்டுஃபை குழு சரிபார்த்துள்ளது."
+  ]
+ },
+ "structural-engineers": {
+  "en": [
+   "Structural engineers",
+   "Structural engineers design foundations, columns, beams and slabs so the building is safe for its load and soil."
+  ],
+  "ta": [
+   "கட்டமைப்புப் பொறியாளர்கள்",
+   "கட்டமைப்புப் பொறியாளர்கள் அடித்தளம், தூண்கள், உத்திரங்கள் மற்றும் தளங்களை வடிவமைத்து, கட்டடம் அதன் சுமைக்கும் மண்ணுக்கும் பாதுகாப்பாக இருப்பதை உறுதி செய்கிறார்கள்."
+  ]
+ },
+ "civil-contractors": {
+  "en": [
+   "Civil contractors",
+   "Civil contractors build the structure — foundations, walls, slabs and plastering — on a labour-only, labour-and-material or turnkey contract."
+  ],
+  "ta": [
+   "சிவில் ஒப்பந்ததாரர்கள்",
+   "சிவில் ஒப்பந்ததாரர்கள் அடித்தளம், சுவர்கள், தளங்கள், பூச்சு என கட்டமைப்பைக் கட்டுகிறார்கள் — கூலி மட்டும், கூலியும் பொருளும், அல்லது டர்ன்கீ ஒப்பந்தமாக."
+  ]
+ },
+ "plumbers": {
+  "en": [
+   "Plumbers",
+   "Plumbers lay water supply and drainage lines, fix sanitaryware and connect sumps and overhead tanks."
+  ],
+  "ta": [
+   "பிளம்பர்கள்",
+   "பிளம்பர்கள் குடிநீர் மற்றும் கழிவுநீர்க் குழாய்களை அமைத்து, சுகாதாரப் பொருட்களைப் பொருத்தி, சம்ப் மற்றும் மேல்நிலைத் தொட்டிகளை இணைக்கிறார்கள்."
+  ]
+ },
+ "electricians": {
+  "en": [
+   "Electricians",
+   "Electricians plan and lay wiring, fit distribution boards and connect your home to the supply."
+  ],
+  "ta": [
+   "மின் பணியாளர்கள்",
+   "மின் பணியாளர்கள் வயரிங்கைத் திட்டமிட்டு அமைத்து, விநியோகப் பலகைகளைப் பொருத்தி, உங்கள் வீட்டை மின் இணைப்புடன் இணைக்கிறார்கள்."
+  ]
+ },
+ "interior-designers": {
+  "en": [
+   "Interior designers",
+   "Interior designers plan layouts, kitchens, storage, lighting and finishes, and many also build and install the work."
+  ],
+  "ta": [
+   "உள் அலங்கார வடிவமைப்பாளர்கள்",
+   "உள் அலங்கார வடிவமைப்பாளர்கள் அமைப்பு, சமையலறை, சேமிப்பு இடம், விளக்குகள், இறுதிப் பூச்சுகளைத் திட்டமிடுகிறார்கள்; பலர் அவற்றைச் செய்து பொருத்தியும் தருகிறார்கள்."
+  ]
+ },
+ "carpenters": {
+  "en": [
+   "Carpenters",
+   "Carpenters make and fit doors, windows, wardrobes and other woodwork."
+  ],
+  "ta": [
+   "தச்சர்கள்",
+   "தச்சர்கள் கதவுகள், ஜன்னல்கள், அலமாரிகள் மற்றும் பிற மரவேலைகளைச் செய்து பொருத்துகிறார்கள்."
+  ]
+ },
+ "painters": {
+  "en": [
+   "Painters",
+   "Painters prepare surfaces and apply primer, putty and paint inside and outside the house."
+  ],
+  "ta": [
+   "வண்ணம் பூசுபவர்கள்",
+   "Painters prepare surfaces and apply primer, putty and paint inside and outside the house."
+  ]
+ },
+ "suppliers": {
+  "en": [
+   "Building material suppliers",
+   "Shops and distributors selling tiles, cement, steel, sanitaryware and paint. Search by product or by the brands they stock."
+  ],
+  "ta": [
+   "கட்டுமானப் பொருள் விற்பனையாளர்கள்",
+   "டைல்ஸ், சிமெண்ட், இரும்புக் கம்பி, சுகாதாரப் பொருட்கள், பெயிண்ட் விற்கும் கடைகள் மற்றும் விநியோகஸ்தர்கள். பொருள் அல்லது அவர்கள் வைத்திருக்கும் பிராண்ட் வாரியாகத் தேடலாம்."
+  ]
+ },
+ "building-a-house": {
+  "en": [
+   "Building a house",
+   "Design, structure and services for a new home — architects, engineers, contractors and the trades that follow them."
+  ],
+  "ta": [
+   "வீடு கட்டுதல்",
+   "புதிய வீட்டுக்கான வடிவமைப்பு, கட்டமைப்பு மற்றும் சேவைகள் — கட்டடக் கலைஞர்கள், பொறியாளர்கள், ஒப்பந்ததாரர்கள் மற்றும் அவர்களைத் தொடரும் பணியாளர்கள்."
+  ]
+ },
+ "interiors-and-finishing": {
+  "en": [
+   "Interiors and finishing",
+   "Kitchens, wardrobes, ceilings, woodwork and paint — the work that makes a structure a home."
+  ],
+  "ta": [
+   "உள் அலங்காரம் மற்றும் இறுதிப் பணிகள்",
+   "சமையலறை, அலமாரிகள், மேற்கூரை, மரவேலை மற்றும் வண்ணம் — ஒரு கட்டடத்தை வீடாக மாற்றும் பணிகள்."
+  ]
+ },
+ "materials-and-supplies": {
+  "en": [
+   "Materials and supplies",
+   "Suppliers of tiles, cement, steel, sanitaryware and paint, searchable by product and brand."
+  ],
+  "ta": [
+   "கட்டுமானப் பொருட்கள்",
+   "டைல்ஸ், சிமெண்ட், இரும்புக் கம்பி, சுகாதாரப் பொருட்கள் மற்றும் பெயிண்ட் விற்பனையாளர்கள் — பொருள் மற்றும் பிராண்ட் வாரியாகத் தேடலாம்."
+  ]
+ }
+}

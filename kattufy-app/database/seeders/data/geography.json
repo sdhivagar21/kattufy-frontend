@@ -1,0 +1,172 @@
+{
+ "zones": {
+  "South Chennai": "தென் சென்னை",
+  "OMR and ECR": null,
+  "West Chennai": "மேற்கு சென்னை",
+  "Central Chennai": "மத்திய சென்னை",
+  "North Chennai": "வட சென்னை"
+ },
+ "localities": [
+  {
+   "slug": "adyar",
+   "name_en": "Adyar",
+   "name_ta": "அடையாறு",
+   "zone": "South Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600020"
+   ]
+  },
+  {
+   "slug": "velachery",
+   "name_en": "Velachery",
+   "name_ta": "வேளச்சேரி",
+   "zone": "South Chennai",
+   "aliases": [
+    "Velacheri"
+   ],
+   "pincodes": [
+    "600042"
+   ]
+  },
+  {
+   "slug": "tambaram",
+   "name_en": "Tambaram",
+   "name_ta": "தாம்பரம்",
+   "zone": "South Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600045"
+   ]
+  },
+  {
+   "slug": "chromepet",
+   "name_en": "Chromepet",
+   "name_ta": "குரோம்பேட்டை",
+   "zone": "South Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600044"
+   ]
+  },
+  {
+   "slug": "mylapore",
+   "name_en": "Mylapore",
+   "name_ta": "மயிலாப்பூர்",
+   "zone": "Central Chennai",
+   "aliases": [
+    "Mylai"
+   ],
+   "pincodes": [
+    "600004"
+   ]
+  },
+  {
+   "slug": "t-nagar",
+   "name_en": "T. Nagar",
+   "name_ta": "தி. நகர்",
+   "zone": "Central Chennai",
+   "aliases": [
+    "Thyagaraya Nagar",
+    "TNagar"
+   ],
+   "pincodes": [
+    "600017"
+   ]
+  },
+  {
+   "slug": "kilpauk",
+   "name_en": "Kilpauk",
+   "name_ta": "கீழ்ப்பாக்கம்",
+   "zone": "Central Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600010"
+   ]
+  },
+  {
+   "slug": "anna-nagar",
+   "name_en": "Anna Nagar",
+   "name_ta": "அண்ணா நகர்",
+   "zone": "West Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600040"
+   ]
+  },
+  {
+   "slug": "porur",
+   "name_en": "Porur",
+   "name_ta": "போரூர்",
+   "zone": "West Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600116"
+   ]
+  },
+  {
+   "slug": "ambattur",
+   "name_en": "Ambattur",
+   "name_ta": "அம்பத்தூர்",
+   "zone": "West Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600053"
+   ]
+  },
+  {
+   "slug": "perambur",
+   "name_en": "Perambur",
+   "name_ta": "பெரம்பூர்",
+   "zone": "North Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600011"
+   ]
+  },
+  {
+   "slug": "tondiarpet",
+   "name_en": "Tondiarpet",
+   "name_ta": "தண்டையார்பேட்டை",
+   "zone": "North Chennai",
+   "aliases": [],
+   "pincodes": [
+    "600081"
+   ]
+  },
+  {
+   "slug": "perungudi",
+   "name_en": "Perungudi",
+   "name_ta": "பெருங்குடி",
+   "zone": "OMR and ECR",
+   "aliases": [],
+   "pincodes": [
+    "600096"
+   ]
+  },
+  {
+   "slug": "sholinganallur",
+   "name_en": "Sholinganallur",
+   "name_ta": "சோழிங்கநல்லூர்",
+   "zone": "OMR and ECR",
+   "aliases": [
+    "Sholinganalur"
+   ],
+   "pincodes": [
+    "600119"
+   ]
+  },
+  {
+   "slug": "thoraipakkam",
+   "name_en": "Thoraipakkam",
+   "name_ta": "Thoraipakkam",
+   "zone": "OMR and ECR",
+   "aliases": [
+    "Thoraipakam"
+   ],
+   "pincodes": [
+    "600097"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+/* Kattufy brand accents for the staff panel. Colours come from the panel
+   provider; this only adds the brand charcoal to the sidebar header area. */
+@layer components {
+    .fi-sidebar-header {
+        border-bottom: 1px solid rgb(242 169 0 / 0.25);
+    }
+
+    .fi-body {
+        font-feature-settings: 'ss01';
+    }
+
+    :lang(ta) .fi-body {
+        line-height: 1.7;
+    }
+}

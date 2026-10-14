@@ -1,0 +1,484 @@
+@import 'tailwindcss';
+
+@source '../views';
+@source '../js';
+@source '../../app/Support';
+
+/* Dark mode follows the .dark class on <html> (set before first paint by the
+   inline script in layouts/base). Shared with the Filament admin panel. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tamil pages get their own spacing and sizes where needed: ta:text-[1.6rem] */
+@custom-variant ta (&:where(:lang(ta), :lang(ta) *));
+
+/* ---------------------------------------------------------------------------
+   Fonts: self-hosted, one Latin and one Tamil family (Architecture §11).
+   Tamil glyphs come from Noto Sans Tamil via unicode-range, so mixed
+   English/Tamil text uses the right face for each character.
+   ------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'Archivo Kattufy';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 62% 125%;
+    font-display: swap;
+    src: url('../fonts/archivo-latin-wdth-wght.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Noto Sans Tamil Kattufy';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('../fonts/noto-sans-tamil-wght.woff2') format('woff2');
+    unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+
+@theme {
+    --font-sans: 'Archivo Kattufy', 'Noto Sans Tamil Kattufy', ui-sans-serif, system-ui, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Tamil', 'Nirmala UI', 'Latha', sans-serif;
+
+    /* Brand palette */
+    --color-ink: #202b33;
+    --color-ink-950: #12191e;
+    --color-ink-900: #182128;
+    --color-ink-800: #2b3843;
+    --color-ink-700: #3a4854;
+    --color-ink-600: #52616e;
+    --color-amber: #f2a900;
+    --color-amber-50: #fdf5df;
+    --color-amber-100: #fbeabf;
+    --color-amber-300: #f7c94d;
+    --color-amber-600: #db9900;
+    --color-amber-700: #8f6300;
+    --color-paper: #f8f7f3;
+    --color-paper-deep: #f0eee7;
+    --color-forest: #275d4a;
+    --color-forest-50: #e8f1ed;
+    --color-forest-300: #7fb79f;
+    --color-forest-700: #1f4b3c;
+    --color-danger: #b42318;
+    --color-danger-50: #fdf1f0;
+    --color-danger-300: #f19a92;
+
+    /* Professional blue for the Pro listing plan only. */
+    --color-pro-50: #eef4fb;
+    --color-pro-100: #dbe7f5;
+    --color-pro-300: #9ec0e6;
+    --color-pro-400: #6f9fd6;
+    --color-pro-600: #2d5f99;
+    --color-pro-700: #1f4a7c;
+    --color-pro-800: #173a61;
+    --color-pro-900: #112b49;
+    --color-pro-950: #0b1d33;
+
+    --radius-control: 0.625rem;
+    --radius-panel: 0.875rem;
+    --radius-tag: 0.375rem;
+
+    --shadow-card: 0 1px 2px rgb(18 25 30 / 0.05), 0 1px 1px rgb(18 25 30 / 0.03);
+    --shadow-raised: 0 1px 2px rgb(18 25 30 / 0.06), 0 12px 32px -12px rgb(18 25 30 / 0.22);
+    --shadow-glow: 0 0 0 1px rgb(242 169 0 / 0.35), 0 10px 30px -10px rgb(242 169 0 / 0.45);
+
+    --animate-fade-up: fade-up 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    --animate-fade-in: fade-in 0.6s ease-out both;
+    --animate-bar: bar 1.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+    --animate-pop: pop 0.32s cubic-bezier(0.2, 0.9, 0.3, 1.3) both;
+
+    @keyframes pop {
+        from { opacity: 0; transform: scale(0.6); }
+        to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fade-up {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: none; }
+    }
+
+    @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes bar {
+        from { transform: scaleX(0); }
+        to { transform: scaleX(1); }
+    }
+}
+
+/* ---------------------------------------------------------------------------
+   Theme tokens. Components use these (bg-canvas, text-fg, border-line …) so
+   light and dark mode come from one place.
+   ------------------------------------------------------------------------- */
+:root {
+    color-scheme: light;
+    --k-canvas: #f8f7f3;
+    --k-surface: #ffffff;
+    --k-surface-2: #f0eee7;
+    --k-sunken: #f3f1ea;
+    --k-fg: #202b33;
+    --k-fg-muted: #52616e;
+    --k-fg-subtle: #6b7785;
+    --k-line: #e5e3dc;
+    --k-line-strong: #cdd3da;
+    --k-accent-text: #8f6300;
+    --k-accent-soft: #fdf5df;
+    --k-success-text: #1f4b3c;
+    --k-success-soft: #e8f1ed;
+    --k-danger-text: #b42318;
+    --k-danger-soft: #fdf1f0;
+    --k-info-soft: #eef2f6;
+    --k-info-text: #2b3843;
+}
+
+.dark {
+    color-scheme: dark;
+    --k-canvas: #0f1519;
+    --k-surface: #172027;
+    --k-surface-2: #1d2830;
+    --k-sunken: #131b20;
+    --k-fg: #eef1f3;
+    --k-fg-muted: #b3bdc6;
+    --k-fg-subtle: #8a97a2;
+    --k-line: #26323b;
+    --k-line-strong: #35444f;
+    --k-accent-text: #f5bd33;
+    --k-accent-soft: rgb(242 169 0 / 0.12);
+    --k-success-text: #8fd0b4;
+    --k-success-soft: rgb(39 93 74 / 0.32);
+    --k-danger-text: #f6a39b;
+    --k-danger-soft: rgb(180 35 24 / 0.2);
+    --k-info-soft: rgb(148 163 184 / 0.12);
+    --k-info-text: #c9d3db;
+}
+
+@theme inline {
+    --color-canvas: var(--k-canvas);
+    --color-surface: var(--k-surface);
+    --color-surface-2: var(--k-surface-2);
+    --color-sunken: var(--k-sunken);
+    --color-fg: var(--k-fg);
+    --color-fg-muted: var(--k-fg-muted);
+    --color-fg-subtle: var(--k-fg-subtle);
+    --color-line: var(--k-line);
+    --color-line-strong: var(--k-line-strong);
+    --color-accent-text: var(--k-accent-text);
+    --color-accent-soft: var(--k-accent-soft);
+    --color-success-text: var(--k-success-text);
+    --color-success-soft: var(--k-success-soft);
+    --color-danger-text: var(--k-danger-text);
+    --color-danger-soft: var(--k-danger-soft);
+    --color-info-soft: var(--k-info-soft);
+    --color-info-text: var(--k-info-text);
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------------- */
+@layer base {
+    html {
+        -webkit-text-size-adjust: 100%;
+        text-rendering: optimizeLegibility;
+        scroll-padding-top: 5rem;
+    }
+
+    body {
+        @apply bg-canvas font-sans text-fg antialiased;
+        font-feature-settings: 'kern';
+    }
+
+    /* Tamil script needs more line height and must never be letter-spaced. */
+    :lang(ta) body,
+    body:lang(ta) {
+        line-height: 1.7;
+    }
+
+    :lang(ta) .tracking-tight,
+    :lang(ta) .tracking-wide,
+    :lang(ta) .tracking-wider,
+    :lang(ta) .tracking-widest {
+        letter-spacing: normal;
+    }
+
+    h1, h2, h3, h4 {
+        text-wrap: balance;
+    }
+
+    p {
+        text-wrap: pretty;
+    }
+
+    ::selection {
+        background: rgb(242 169 0 / 0.35);
+        color: inherit;
+    }
+
+    :focus-visible {
+        outline: 3px solid var(--color-amber);
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+
+    input[type='file']::file-selector-button {
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------------------------------
+   Components
+   ------------------------------------------------------------------------- */
+@layer components {
+    .container-page {
+        @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+    }
+
+    .type-display {
+        @apply font-bold tracking-tight text-fg;
+        font-stretch: 112%;
+        line-height: 1.12;
+    }
+
+    .type-heading {
+        @apply font-semibold tracking-tight text-fg;
+        font-stretch: 106%;
+        line-height: 1.25;
+    }
+
+    :lang(ta) .type-display,
+    :lang(ta) .type-heading {
+        font-stretch: 100%;
+        line-height: 1.45;
+    }
+
+    .eyebrow {
+        @apply text-xs font-semibold tracking-[0.14em] text-accent-text uppercase;
+    }
+
+    :lang(ta) .eyebrow {
+        @apply text-[0.8rem] normal-case;
+    }
+
+    /* Buttons */
+    .btn {
+        @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-control px-5 text-[0.95rem] font-semibold whitespace-nowrap transition-[background-color,box-shadow,transform,color,border-color] duration-150 select-none active:translate-y-px disabled:pointer-events-none disabled:opacity-55;
+    }
+
+    :lang(ta) .btn {
+        @apply whitespace-normal py-2 text-center leading-snug;
+    }
+
+    .btn-primary {
+        @apply bg-amber text-ink shadow-[0_1px_0_rgb(18_25_30/0.12),inset_0_1px_0_rgb(255_255_255/0.35)] hover:bg-amber-300 focus-visible:shadow-glow;
+    }
+
+    .btn-dark {
+        @apply bg-ink text-white hover:bg-ink-800 dark:bg-white dark:text-ink dark:hover:bg-paper-deep;
+    }
+
+    .btn-secondary {
+        @apply border border-line-strong bg-surface text-fg hover:border-fg-subtle hover:bg-surface-2;
+    }
+
+    .btn-ghost {
+        @apply text-fg-muted hover:bg-surface-2 hover:text-fg;
+    }
+
+    .btn-danger {
+        @apply bg-danger text-white hover:bg-danger/90;
+    }
+
+    .btn-sm {
+        @apply min-h-9 px-3.5 text-sm;
+    }
+
+    .btn-lg {
+        @apply min-h-12 px-6 text-base;
+    }
+
+    /* Forms */
+    .field-label {
+        @apply mb-1.5 block text-[0.925rem] font-semibold text-fg;
+    }
+
+    .field-hint {
+        @apply mt-1.5 text-sm text-fg-subtle;
+    }
+
+    .field-error {
+        @apply mt-1.5 flex items-start gap-1.5 text-sm font-medium text-danger-text;
+    }
+
+    .input {
+        @apply block min-h-12 w-full rounded-control border border-line-strong bg-surface px-3.5 text-base text-fg shadow-[inset_0_1px_1px_rgb(18_25_30/0.04)] transition-[border-color,box-shadow] duration-150 placeholder:text-fg-subtle/70 focus:border-ink focus:ring-4 focus:ring-amber/25 focus:outline-none dark:focus:border-amber;
+    }
+
+    .input[aria-invalid='true'] {
+        @apply border-danger focus:ring-danger/20;
+    }
+
+    textarea.input {
+        @apply min-h-28 py-3 leading-relaxed;
+    }
+
+    select.input {
+        @apply appearance-none bg-[length:1.1rem] bg-[right_0.85rem_center] bg-no-repeat pr-10;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%236b7785'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.17l3.71-3.94a.75.75 0 1 1 1.08 1.04l-4.25 4.5a.75.75 0 0 1-1.08 0l-4.25-4.5a.75.75 0 0 1 .02-1.06Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    }
+
+    .checkbox {
+        @apply mt-0.5 size-5 shrink-0 rounded border-line-strong text-ink accent-amber focus:ring-amber;
+    }
+
+    /* Surfaces */
+    .card {
+        @apply rounded-panel border border-line bg-surface shadow-card;
+    }
+
+    .card-pad {
+        @apply p-5 sm:p-6;
+    }
+
+    .link {
+        @apply font-semibold text-fg underline decoration-amber decoration-2 underline-offset-4 transition-colors hover:text-accent-text;
+    }
+
+    /* Blueprint grid used on charcoal brand panels. */
+    .bg-blueprint {
+        background-image:
+            linear-gradient(rgb(255 255 255 / 0.045) 1px, transparent 1px),
+            linear-gradient(90deg, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+        background-size: 28px 28px;
+    }
+
+    .bg-blueprint-light {
+        background-image:
+            linear-gradient(var(--k-line) 1px, transparent 1px),
+            linear-gradient(90deg, var(--k-line) 1px, transparent 1px);
+        background-size: 28px 28px;
+    }
+
+    /* Charcoal and amber "measuring tape" accent. */
+    .rule-amber {
+        @apply h-1 w-14 rounded-full bg-amber;
+    }
+
+    /* -----------------------------------------------------------------------
+       Listing plan cards. Each plan has its own look so the difference is
+       visible at a glance: Free (quiet slate), Pro (professional blue with
+       gold details), Premium (charcoal with a gold border and badge).
+       ------------------------------------------------------------------- */
+    .plan-card {
+        @apply relative flex h-full flex-col rounded-[1.125rem] border p-5 text-left transition-[transform,box-shadow,border-color,background-color] duration-300 ease-out sm:p-6;
+    }
+
+    .plan-card:hover {
+        @apply -translate-y-1;
+    }
+
+    .plan-card:has(:focus-visible) {
+        outline: 3px solid var(--color-amber);
+        outline-offset: 3px;
+    }
+
+    .plan-card-free {
+        @apply border-slate-200 bg-surface text-fg shadow-card hover:border-slate-300 hover:shadow-raised dark:border-slate-700/70 dark:hover:border-slate-500;
+        background-image: linear-gradient(180deg, rgb(100 116 139 / 0.07), transparent 7rem);
+    }
+
+    .plan-card-pro {
+        @apply border-pro-600/60 text-white shadow-[0_14px_36px_-18px_rgb(17_43_73/0.7)] hover:border-amber/60 hover:shadow-[0_22px_48px_-20px_rgb(17_43_73/0.85)];
+        background-image:
+            radial-gradient(120% 70% at 100% 0%, rgb(111 159 214 / 0.22), transparent 60%),
+            linear-gradient(160deg, var(--color-pro-800), var(--color-pro-950));
+    }
+
+    .plan-card-premium {
+        @apply border-transparent text-white shadow-[0_16px_40px_-20px_rgb(18_25_30/0.8)] hover:shadow-[0_0_0_1px_rgb(242_169_0/0.3),0_24px_56px_-22px_rgb(242_169_0/0.45)];
+        background:
+            radial-gradient(110% 60% at 0% 0%, rgb(242 169 0 / 0.12), transparent 55%) padding-box,
+            linear-gradient(165deg, var(--color-ink-800), var(--color-ink-950)) padding-box,
+            linear-gradient(135deg, #f7c94d, rgb(242 169 0 / 0.35) 38%, rgb(242 169 0 / 0.12) 62%, #f2a900) border-box;
+    }
+
+    /* Selected: a gold ring on every plan; Premium also glows (sparingly). */
+    .plan-card.is-selected {
+        @apply -translate-y-1 border-amber ring-2 ring-amber/70;
+    }
+
+    .plan-card-free.is-selected {
+        @apply shadow-[0_18px_40px_-22px_rgb(18_25_30/0.45)];
+    }
+
+    .plan-card-premium.is-selected {
+        box-shadow: 0 0 0 1px rgb(242 169 0 / 0.45), 0 0 28px -4px rgb(242 169 0 / 0.35), 0 26px 60px -24px rgb(242 169 0 / 0.5);
+    }
+
+    /* Premium badge: one slow sheen when the card is hovered. */
+    .plan-badge-sheen {
+        background-image: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.55) 50%, transparent 70%), linear-gradient(#f2a900, #f2a900);
+        background-size: 250% 100%, 100% 100%;
+        background-position: 130% 0, 0 0;
+        transition: background-position 0.9s ease;
+    }
+
+    .plan-card:hover .plan-badge-sheen {
+        background-position: -30% 0, 0 0;
+    }
+
+    .prose-kattufy {
+        @apply max-w-prose text-[1.0625rem] leading-relaxed text-fg-muted;
+    }
+
+    .prose-kattufy h2 {
+        @apply mt-10 mb-3 text-[1.35rem] font-semibold tracking-tight text-fg;
+    }
+
+    .prose-kattufy h3 {
+        @apply mt-8 mb-2 text-lg font-semibold text-fg;
+    }
+
+    .prose-kattufy p,
+    .prose-kattufy ul,
+    .prose-kattufy ol {
+        @apply mb-4;
+    }
+
+    .prose-kattufy ul {
+        @apply list-disc space-y-1.5 pl-5 marker:text-amber;
+    }
+
+    .prose-kattufy ol {
+        @apply list-decimal space-y-1.5 pl-5;
+    }
+
+    .prose-kattufy strong {
+        @apply font-semibold text-fg;
+    }
+
+    .prose-kattufy a {
+        @apply font-semibold text-fg underline decoration-amber decoration-2 underline-offset-4 hover:text-accent-text;
+    }
+}
+
+/* Smooth colour change when the theme is switched, not on every load. */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.2s ease, fill 0.2s ease !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

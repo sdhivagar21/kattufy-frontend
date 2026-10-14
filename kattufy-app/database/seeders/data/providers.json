@@ -1,0 +1,2657 @@
+[
+ {
+  "slug": "agaram-home-design",
+  "categories": [
+   "architects",
+   "civil-contractors"
+  ],
+  "name_en": "Agaram Home Design",
+  "name_ta": "அகரம் ஹோம் டிசைன்",
+  "subtype": "Design and build firm",
+  "locality": "Tambaram",
+  "since": 2010,
+  "description_en": "Agaram Home Design designs and builds houses in Tambaram, Chromepet and the southern suburbs, often working with families building their first home.",
+  "description_ta": "அகரம் ஹோம் டிசைன் தாம்பரம், குரோம்பேட்டை மற்றும் தெற்குப் புறநகர்ப் பகுதிகளில் வீடுகளை வடிவமைத்துக் கட்டித் தருகிறது; முதல் வீடு கட்டும் குடும்பங்களுடன் அதிகம் பணியாற்றுகிறது.",
+  "portfolio": [
+   {
+    "image": "construction-site",
+    "title": "House under construction",
+    "meta": "Tambaram, 2026",
+    "title_ta": "கட்டுமானத்தில் உள்ள வீடு"
+   },
+   {
+    "image": "house-modern",
+    "title": "First home for a young family",
+    "meta": "Chromepet, 2025",
+    "title_ta": "இளம் குடும்பத்தின் முதல் வீடு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "New house construction",
+   "Compound walls"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Jun 2026"
+   },
+   {
+    "name": "Contractor registration",
+    "authority": "Greater Chennai Corporation",
+    "checked": "Jul 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "coromandel-habitat-design",
+  "categories": [
+   "architects",
+   "interior-designers"
+  ],
+  "name_en": "Coromandel Habitat Design",
+  "name_ta": "கோரமண்டல் ஹேபிடாட் டிசைன்",
+  "subtype": "Architecture firm",
+  "locality": "Perungudi",
+  "since": 2015,
+  "description_en": "Coromandel Habitat Design works on new homes and apartment interiors along the OMR corridor, often handling both the architecture and the interiors of a project.",
+  "description_ta": "கோரமண்டல் ஹேபிடாட் டிசைன் ஓஎம்ஆர் பகுதியில் புதிய வீடுகளையும் அடுக்குமாடி உள் அலங்காரத்தையும் வடிவமைக்கிறது; பெரும்பாலும் ஒரே திட்டத்தின் கட்டடக் கலையையும் உள் அலங்காரத்தையும் கவனித்துக்கொள்கிறது.",
+  "portfolio": [
+   {
+    "image": "kitchen",
+    "title": "Apartment kitchen",
+    "meta": "Perungudi, 2025",
+    "title_ta": "அடுக்குமாடிச் சமையலறை"
+   },
+   {
+    "image": "interior-living",
+    "title": "Living and reading room",
+    "meta": "Thoraipakkam, 2025",
+    "title_ta": "வரவேற்பறை மற்றும் வாசிப்பறை"
+   },
+   {
+    "image": "house-modern",
+    "title": "Weekend house",
+    "meta": "Sholinganallur, 2024",
+    "title_ta": "வார இறுதி வீடு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Full home interiors",
+   "Modular kitchens"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Mar 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "ezhil-architects",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Ezhil Architects",
+  "name_ta": "எழில் ஆர்கிடெக்ட்ஸ்",
+  "subtype": "Independent architect",
+  "locality": "Anna Nagar",
+  "since": 2020,
+  "description_en": "Ezhil Architects designs compact houses for narrow city plots and prepares approval drawings for owners who already have a builder.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "house-modern",
+    "title": "Compact house on a 24-ft plot",
+    "meta": "Anna Nagar, 2025",
+    "title_ta": "24 அடி மனையில் சிறிய வீடு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Approval drawings"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Sep 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "kaveri-design-studio",
+  "categories": [
+   "architects",
+   "interior-designers"
+  ],
+  "name_en": "Kaveri Design Studio",
+  "name_ta": "காவேரி டிசைன் ஸ்டுடியோ",
+  "subtype": "Architecture firm",
+  "locality": "Adyar",
+  "since": 2011,
+  "description_en": "Kaveri Design Studio designs independent houses and renovations for families in South and Central Chennai.\n\nThe team handles site study, planning approval drawings and interiors, and visits site at each stage of construction.",
+  "description_ta": "காவேரி டிசைன் ஸ்டுடியோ தென் மற்றும் மத்திய சென்னையில் குடும்பங்களுக்குத் தனி வீடுகளையும் புதுப்பித்தல் பணிகளையும் வடிவமைக்கிறது.\n\nமனை ஆய்வு, அனுமதி வரைபடங்கள், உள் அலங்காரம் ஆகியவற்றைக் கவனித்து, கட்டுமானத்தின் ஒவ்வொரு கட்டத்திலும் தளத்தைப் பார்வையிடுகிறது.",
+  "portfolio": [
+   {
+    "image": "house-modern",
+    "title": "Two-storey family home",
+    "meta": "Adyar, 2025",
+    "title_ta": "இரண்டு மாடி குடும்ப வீடு"
+   },
+   {
+    "image": "interior-living",
+    "title": "Living room, apartment renovation",
+    "meta": "Mylapore, 2025",
+    "title_ta": "வரவேற்பறை, அடுக்குமாடிப் புதுப்பித்தல்"
+   },
+   {
+    "image": "kitchen",
+    "title": "Kitchen and dining",
+    "meta": "Adyar, 2024",
+    "title_ta": "சமையலறை மற்றும் உணவுக்கூடம்"
+   },
+   {
+    "image": "staircase",
+    "title": "Stair and double-height hall",
+    "meta": "Velachery, 2024",
+    "title_ta": "படிக்கட்டு மற்றும் இரட்டை உயரக் கூடம்"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Renovation and extensions",
+   "Approval drawings",
+   "Full home interiors"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Aug 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "kolam-architecture-collective",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Kolam Architecture Collective",
+  "name_ta": "கோலம் ஆர்கிடெக்சர் கலெக்டிவ்",
+  "subtype": "Architecture firm",
+  "locality": "Anna Nagar",
+  "since": 2014,
+  "description_en": "A team of four architects designing homes and small apartment blocks in Anna Nagar, Kilpauk and nearby areas. They prepare planning approval drawings for their own projects.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "apartment-block",
+    "title": "Apartment block, eight homes",
+    "meta": "Anna Nagar, 2025",
+    "title_ta": "எட்டு வீடுகள் கொண்ட அடுக்குமாடி"
+   },
+   {
+    "image": "house-modern",
+    "title": "Corner-plot house",
+    "meta": "Kilpauk, 2024",
+    "title_ta": "மூலை மனை வீடு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Apartments",
+   "Approval drawings"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Jun 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "marina-line-studio",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Marina Line Studio",
+  "name_ta": "Marina Line Studio",
+  "subtype": "Independent architect",
+  "locality": "Adyar",
+  "since": 2019,
+  "description_en": "An independent architect's practice focused on renovating and extending existing homes, including adding a floor to an older house.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "interior-living",
+    "title": "Floor added to a 1980s house",
+    "meta": "Adyar, 2025",
+    "title_ta": "1980களின் வீட்டுக்குக் கூடுதல் மாடி"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Renovation and extensions"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Sep 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "mylai-form-and-space",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Mylai Form & Space",
+  "name_ta": "Mylai Form & Space",
+  "subtype": "Architecture firm",
+  "locality": "Mylapore",
+  "since": 2008,
+  "description_en": "Mylai Form & Space takes on renovations of older homes and small apartment buildings in Central Chennai, including heritage-sensitive work in Mylapore.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "apartment-block",
+    "title": "Six-unit apartment building",
+    "meta": "Mylapore, 2025",
+    "title_ta": "ஆறு வீடுகள் கொண்ட அடுக்குமாடி"
+   },
+   {
+    "image": "office",
+    "title": "Office floor fit-out",
+    "meta": "T. Nagar, 2023",
+    "title_ta": "அலுவலகத் தள அமைப்பு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Renovation and extensions",
+   "Commercial buildings"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "May 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "pallavan-architects-planners",
+  "categories": [
+   "architects",
+   "civil-contractors"
+  ],
+  "name_en": "Pallavan Architects & Planners",
+  "name_ta": "பல்லவன் ஆர்கிடெக்ட்ஸ் & பிளானர்ஸ்",
+  "subtype": "Design and build firm",
+  "locality": "Porur",
+  "since": 2005,
+  "description_en": "Pallavan Architects & Planners designs and builds independent houses in West Chennai, so one team is responsible from drawings to handover. They also take on design-only projects.",
+  "description_ta": "பல்லவன் ஆர்கிடெக்ட்ஸ் & பிளானர்ஸ் மேற்கு சென்னையில் தனி வீடுகளை வடிவமைத்துக் கட்டித் தருகிறது; வரைபடம் முதல் ஒப்படைப்பு வரை ஒரே குழு பொறுப்பேற்கிறது. வடிவமைப்பு மட்டுமான திட்டங்களையும் ஏற்கிறது.",
+  "portfolio": [
+   {
+    "image": "construction-site",
+    "title": "Ground plus two house, under construction",
+    "meta": "Porur, 2026",
+    "title_ta": "தரை மற்றும் இரண்டு மாடி வீடு, கட்டுமானத்தில்"
+   },
+   {
+    "image": "house-modern",
+    "title": "Completed family home",
+    "meta": "Porur, 2025",
+    "title_ta": "நிறைவடைந்த குடும்ப வீடு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Apartments",
+   "New house construction",
+   "Turnkey projects"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Apr 2026"
+   },
+   {
+    "name": "Contractor registration",
+    "authority": "Greater Chennai Corporation",
+    "checked": "Apr 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "senthil-associates-architects",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Senthil & Associates Architects",
+  "name_ta": "செந்தில் & அசோசியேட்ஸ் ஆர்கிடெக்ட்ஸ்",
+  "subtype": "Architecture firm",
+  "locality": "Perambur",
+  "since": 2001,
+  "description_en": "Senthil & Associates prepares designs and approval drawings for apartments, shops and small commercial buildings in North Chennai.",
+  "description_ta": null,
+  "portfolio": [],
+  "specialisations": [
+   "Commercial buildings",
+   "Apartments",
+   "Approval drawings"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "North Chennai",
+    "Perambur, Tondiarpet"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Dec 2025"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "terracotta-lane-studio",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Terracotta Lane Studio",
+  "name_ta": "Terracotta Lane Studio",
+  "subtype": "Architecture firm",
+  "locality": "Velachery",
+  "since": 2012,
+  "description_en": "Terracotta Lane Studio designs brick and lime-plaster homes and restores older houses in South Chennai.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "villa-courtyard",
+    "title": "Brick and lime-plaster house",
+    "meta": "Velachery, 2024",
+    "title_ta": "செங்கல் மற்றும் சுண்ணாம்புப் பூச்சு வீடு"
+   },
+   {
+    "image": "staircase",
+    "title": "Restored stair hall",
+    "meta": "Adyar, 2023",
+    "title_ta": "புதுப்பிக்கப்பட்ட படிக்கட்டுக் கூடம்"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Renovation and extensions",
+   "Landscape design"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Jan 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "thinai-architects",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Thinai Architects",
+  "name_ta": "திணை ஆர்கிடெக்ட்ஸ்",
+  "subtype": "Architecture firm",
+  "locality": "Velachery",
+  "since": 2016,
+  "description_en": "Thinai Architects works on climate-responsive homes with courtyards, shaded verandahs and cross-ventilation. Most projects are independent houses on plots between 1,200 and 4,000 sq ft.",
+  "description_ta": "திணை ஆர்கிடெக்ட்ஸ் முற்றம், நிழல் தரும் திண்ணை, குறுக்குக் காற்றோட்டம் கொண்ட காலநிலைக்கு ஏற்ற வீடுகளை வடிவமைக்கிறது. பெரும்பாலான திட்டங்கள் 1,200 முதல் 4,000 சதுர அடி மனைகளில் அமைந்த தனி வீடுகள்.",
+  "portfolio": [
+   {
+    "image": "villa-courtyard",
+    "title": "Courtyard house",
+    "meta": "Velachery, 2025",
+    "title_ta": "முற்ற வீடு"
+   },
+   {
+    "image": "house-modern",
+    "title": "House with shaded verandahs",
+    "meta": "Sholinganallur, 2024",
+    "title_ta": "நிழல் திண்ணைகள் கொண்ட வீடு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Landscape design"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ],
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Jul 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "vanam-green-architecture",
+  "categories": [
+   "architects"
+  ],
+  "name_en": "Vanam Green Architecture",
+  "name_ta": "வனம் கிரீன் ஆர்கிடெக்சர்",
+  "subtype": "Architecture firm",
+  "locality": "Sholinganallur",
+  "since": 2017,
+  "description_en": "Vanam Green Architecture designs houses and gardens along OMR and ECR, with attention to rainwater harvesting, shading and planting.",
+  "description_ta": "வனம் கிரீன் ஆர்கிடெக்சர் ஓஎம்ஆர் மற்றும் ஈசிஆர் பகுதிகளில் வீடுகளையும் தோட்டங்களையும் வடிவமைக்கிறது; மழைநீர் சேகரிப்பு, நிழல், செடிகள் ஆகியவற்றில் கவனம் செலுத்துகிறது.",
+  "portfolio": [
+   {
+    "image": "villa-courtyard",
+    "title": "Garden house",
+    "meta": "Sholinganallur, 2025",
+    "title_ta": "தோட்ட வீடு"
+   },
+   {
+    "image": "staircase",
+    "title": "Open stair with skylight",
+    "meta": "Perungudi, 2024",
+    "title_ta": "மேல் வெளிச்சத்துடன் திறந்த படிக்கட்டு"
+   }
+  ],
+  "specialisations": [
+   "Independent houses",
+   "Landscape design"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ],
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "registration",
+    "authority": "Council of Architecture",
+    "checked": "Feb 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Feb 2026"
+ },
+ {
+  "slug": "arasu-builders",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Arasu Builders",
+  "name_ta": "அரசு பில்டர்ஸ்",
+  "subtype": "Building contractor",
+  "locality": "Ambattur",
+  "since": 2007,
+  "description_en": "Arasu Builders constructs independent houses and small apartment buildings on turnkey or labour-and-material contracts in West and North Chennai.",
+  "description_ta": "அரசு பில்டர்ஸ் மேற்கு மற்றும் வட சென்னையில் தனி வீடுகளையும் சிறிய அடுக்குமாடிக் கட்டடங்களையும் டர்ன்கீ அல்லது கூலியும் பொருளும் ஒப்பந்தத்தில் கட்டித் தருகிறது.",
+  "portfolio": [
+   {
+    "image": "construction-site",
+    "title": "Ground plus one house",
+    "meta": "Ambattur, 2025",
+    "title_ta": "தரை மற்றும் ஒரு மாடி வீடு"
+   },
+   {
+    "image": "apartment-block",
+    "title": "Four-storey apartment",
+    "meta": "Perambur, 2024",
+    "title_ta": "நான்கு மாடி அடுக்குமாடி"
+   }
+  ],
+  "specialisations": [
+   "New house construction",
+   "Turnkey projects",
+   "Waterproofing"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ],
+   [
+    "North Chennai",
+    "Perambur, Tondiarpet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "Contractor registration",
+    "authority": "Greater Chennai Corporation",
+    "checked": "May 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "bedrock-structures",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Bedrock Structures",
+  "name_ta": "Bedrock Structures",
+  "subtype": "Building contractor",
+  "locality": "Sholinganallur",
+  "since": 2016,
+  "description_en": "Bedrock Structures builds villas and independent houses along OMR and in the southern suburbs, from foundation to finishing.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "construction-site",
+    "title": "Villa frame",
+    "meta": "Sholinganallur, 2026",
+    "title_ta": "வில்லா கட்டமைப்பு"
+   },
+   {
+    "image": "villa-courtyard",
+    "title": "Completed villa",
+    "meta": "Perungudi, 2025",
+    "title_ta": "நிறைவடைந்த வில்லா"
+   }
+  ],
+  "specialisations": [
+   "New house construction",
+   "Turnkey projects"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ],
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "Contractor registration",
+    "authority": "Greater Chennai Corporation",
+    "checked": "Aug 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "granite-line-constructions",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Granite Line Constructions",
+  "name_ta": "கிரானைட் லைன் கன்ஸ்ட்ரக்ஷன்ஸ்",
+  "subtype": "Building contractor",
+  "locality": "Kilpauk",
+  "since": 2011,
+  "description_en": "Granite Line Constructions builds residential buildings in Central and West Chennai and works with the owner's own architect.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "construction-site",
+    "title": "Residential building, structure stage",
+    "meta": "Kilpauk, 2026",
+    "title_ta": "குடியிருப்புக் கட்டடம், கட்டமைப்பு நிலை"
+   }
+  ],
+  "specialisations": [
+   "New house construction",
+   "Turnkey projects",
+   "Renovation works"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ],
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "iyal-constructions",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Iyal Constructions",
+  "name_ta": "இயல் கன்ஸ்ட்ரக்ஷன்ஸ்",
+  "subtype": "Building contractor",
+  "locality": "Perungudi",
+  "since": 2019,
+  "description_en": "Iyal Constructions handles renovation, additions and compound walls for homes along OMR.",
+  "description_ta": "இயல் கன்ஸ்ட்ரக்ஷன்ஸ் ஓஎம்ஆர் பகுதி வீடுகளுக்குப் புதுப்பித்தல், கூடுதல் கட்டுமானம், சுற்றுச்சுவர் பணிகளைச் செய்கிறது.",
+  "portfolio": [],
+  "specialisations": [
+   "Renovation works",
+   "Compound walls"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "kalai-civil-works",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Kalai Civil Works",
+  "name_ta": "கலை சிவில் ஒர்க்ஸ்",
+  "subtype": "Building contractor",
+  "locality": "T. Nagar",
+  "since": 2013,
+  "description_en": "Kalai Civil Works handles renovation, structural repairs, compound walls and terrace waterproofing for houses and apartments.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "staircase",
+    "title": "Stair repair and re-plastering",
+    "meta": "T. Nagar, 2025",
+    "title_ta": "படிக்கட்டு பழுதுபார்ப்பு மற்றும் மறுபூச்சு"
+   }
+  ],
+  "specialisations": [
+   "Renovation works",
+   "Compound walls",
+   "Waterproofing"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ],
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "mangadu-housing-contractors",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Mangadu Housing Contractors",
+  "name_ta": "மாங்காடு ஹவுசிங் கான்ட்ராக்டர்ஸ்",
+  "subtype": "Building contractor",
+  "locality": "Porur",
+  "since": 2009,
+  "description_en": "A family-run contracting firm building houses in Porur, Mangadu and Poonamallee since 2009.",
+  "description_ta": "போரூர், மாங்காடு, பூந்தமல்லி பகுதிகளில் 2009 முதல் வீடுகள் கட்டி வரும் குடும்ப ஒப்பந்த நிறுவனம்.",
+  "portfolio": [],
+  "specialisations": [
+   "New house construction",
+   "Compound walls"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "nandhini-construction",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Nandhini Construction Co.",
+  "name_ta": "நந்தினி கன்ஸ்ட்ரக்ஷன் கோ.",
+  "subtype": "Building contractor",
+  "locality": "Tondiarpet",
+  "since": 2004,
+  "description_en": "Nandhini Construction builds and renovates houses and shop-cum-residence buildings in North Chennai.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "apartment-block",
+    "title": "Shop-cum-residence building",
+    "meta": "Tondiarpet, 2024",
+    "title_ta": "கடை மற்றும் குடியிருப்புக் கட்டடம்"
+   }
+  ],
+  "specialisations": [
+   "New house construction",
+   "Renovation works"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "North Chennai",
+    "Perambur, Tondiarpet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "Contractor registration",
+    "authority": "Greater Chennai Corporation",
+    "checked": "Feb 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "southgate-builders",
+  "categories": [
+   "civil-contractors"
+  ],
+  "name_en": "Southgate Builders",
+  "name_ta": "Southgate Builders",
+  "subtype": "Building contractor",
+  "locality": "Chromepet",
+  "since": 2018,
+  "description_en": "Southgate Builders takes on turnkey house construction in Chromepet, Tambaram and Pallavaram, and terrace waterproofing for existing homes.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "house-modern",
+    "title": "Turnkey house",
+    "meta": "Chromepet, 2025",
+    "title_ta": "டர்ன்கீ வீடு"
+   }
+  ],
+  "specialisations": [
+   "Turnkey projects",
+   "Waterproofing"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [
+   {
+    "name": "Contractor registration",
+    "authority": "Greater Chennai Corporation",
+    "checked": "Jun 2026"
+   }
+  ],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Mar 2026"
+ },
+ {
+  "slug": "inside-out-interiors",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Inside Out Interiors",
+  "name_ta": "Inside Out Interiors",
+  "subtype": "Interior design studio",
+  "locality": "Velachery",
+  "since": 2015,
+  "description_en": "Inside Out Interiors designs and installs full-home interiors for new apartments, with modular kitchens and wardrobes made in its own workshop.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "kitchen",
+    "title": "Parallel kitchen",
+    "meta": "Velachery, 2025",
+    "title_ta": "இணைச் சமையலறை"
+   },
+   {
+    "image": "interior-living",
+    "title": "Three-bedroom apartment",
+    "meta": "Perungudi, 2025",
+    "title_ta": "மூன்று படுக்கையறை அடுக்குமாடி"
+   },
+   {
+    "image": "bathroom",
+    "title": "Bathroom remodel",
+    "meta": "Adyar, 2024",
+    "title_ta": "குளியலறை மறுவடிவமைப்பு"
+   }
+  ],
+  "specialisations": [
+   "Full home interiors",
+   "Modular kitchens",
+   "Wardrobes and storage"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ],
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "kolu-interiors",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Kolu Interiors",
+  "name_ta": "கொலு இன்டீரியர்ஸ்",
+  "subtype": "Interior design studio",
+  "locality": "T. Nagar",
+  "since": 2012,
+  "description_en": "Kolu Interiors designs living spaces that mix traditional details with modern storage, mostly for homes in T. Nagar and Mylapore.",
+  "description_ta": "கொலு இன்டீரியர்ஸ் பாரம்பரிய அம்சங்களையும் நவீன சேமிப்பு வசதிகளையும் இணைத்து வீடுகளை வடிவமைக்கிறது; பெரும்பாலும் தி. நகர், மயிலாப்பூர் பகுதி வீடுகளுக்கு.",
+  "portfolio": [
+   {
+    "image": "interior-living",
+    "title": "Pooja room and living area",
+    "meta": "T. Nagar, 2025",
+    "title_ta": "பூஜை அறை மற்றும் வரவேற்பறை"
+   },
+   {
+    "image": "staircase",
+    "title": "Wooden stair cladding",
+    "meta": "Mylapore, 2024",
+    "title_ta": "மரப் படிக்கட்டு மூடுதல்"
+   }
+  ],
+  "specialisations": [
+   "Full home interiors",
+   "False ceilings"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "muthu-modular-interiors",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Muthu Modular Interiors",
+  "name_ta": "முத்து மாடுலர் இன்டீரியர்ஸ்",
+  "subtype": "Interior design studio",
+  "locality": "Tambaram",
+  "since": 2017,
+  "description_en": "Muthu Modular Interiors makes and installs modular kitchens and wardrobes for homes in the southern suburbs.",
+  "description_ta": "முத்து மாடுலர் இன்டீரியர்ஸ் தெற்குப் புறநகர் வீடுகளுக்கு மாடுலர் சமையலறைகளையும் அலமாரிகளையும் செய்து பொருத்துகிறது.",
+  "portfolio": [
+   {
+    "image": "kitchen",
+    "title": "L-shaped modular kitchen",
+    "meta": "Tambaram, 2025",
+    "title_ta": "L வடிவ மாடுலர் சமையலறை"
+   }
+  ],
+  "specialisations": [
+   "Modular kitchens",
+   "Wardrobes and storage"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "neem-house-interiors",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Neem House Interiors",
+  "name_ta": "Neem House Interiors",
+  "subtype": "Interior design studio",
+  "locality": "Sholinganallur",
+  "since": 2018,
+  "description_en": "Neem House Interiors works on complete interiors for apartments along OMR, from false ceilings to wardrobes.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "interior-living",
+    "title": "Two-bedroom apartment",
+    "meta": "Sholinganallur, 2025",
+    "title_ta": "இரண்டு படுக்கையறை அடுக்குமாடி"
+   },
+   {
+    "image": "bathroom",
+    "title": "Guest bathroom",
+    "meta": "Thoraipakkam, 2024",
+    "title_ta": "விருந்தினர் குளியலறை"
+   }
+  ],
+  "specialisations": [
+   "Full home interiors",
+   "False ceilings",
+   "Wardrobes and storage"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "plinth-interior-studio",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Plinth Interior Studio",
+  "name_ta": "Plinth Interior Studio",
+  "subtype": "Interior design studio",
+  "locality": "Porur",
+  "since": 2021,
+  "description_en": "Plinth Interior Studio designs interiors for new homes in West Chennai, starting from a single room.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "kitchen",
+    "title": "Open kitchen",
+    "meta": "Porur, 2025",
+    "title_ta": "திறந்த சமையலறை"
+   }
+  ],
+  "specialisations": [
+   "Full home interiors",
+   "Modular kitchens"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "silk-route-interiors",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Silk Route Interiors",
+  "name_ta": "சில்க் ரூட் இன்டீரியர்ஸ்",
+  "subtype": "Interior design studio",
+  "locality": "Kilpauk",
+  "since": 2009,
+  "description_en": "Silk Route Interiors designs residential and office interiors in Central Chennai.",
+  "description_ta": null,
+  "portfolio": [],
+  "specialisations": [
+   "Full home interiors",
+   "Office interiors"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "teakwood-and-tile-studio",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Teakwood & Tile Studio",
+  "name_ta": "Teakwood & Tile Studio",
+  "subtype": "Interior design studio",
+  "locality": "Anna Nagar",
+  "since": 2010,
+  "description_en": "Teakwood & Tile Studio designs home and small office interiors, with an emphasis on natural materials.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "office",
+    "title": "Studio office",
+    "meta": "Anna Nagar, 2025",
+    "title_ta": "ஸ்டுடியோ அலுவலகம்"
+   },
+   {
+    "image": "interior-living",
+    "title": "Family living room",
+    "meta": "Kilpauk, 2024",
+    "title_ta": "குடும்ப வரவேற்பறை"
+   }
+  ],
+  "specialisations": [
+   "Full home interiors",
+   "Office interiors"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "thari-interiors",
+  "categories": [
+   "interior-designers"
+  ],
+  "name_en": "Thari Interiors",
+  "name_ta": "தறி இன்டீரியர்ஸ்",
+  "subtype": "Interior design studio",
+  "locality": "Perambur",
+  "since": 2016,
+  "description_en": "Thari Interiors fits wardrobes, storage and false ceilings for homes in North and Central Chennai.",
+  "description_ta": "தறி இன்டீரியர்ஸ் வட மற்றும் மத்திய சென்னை வீடுகளுக்கு அலமாரிகள், சேமிப்பு வசதிகள், ஃபால்ஸ் சீலிங் அமைத்துத் தருகிறது.",
+  "portfolio": [],
+  "specialisations": [
+   "Wardrobes and storage",
+   "False ceilings"
+  ],
+  "brands": [],
+  "zones": [
+   [
+    "North Chennai",
+    "Perambur, Tondiarpet"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Tuesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Wednesday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Thursday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Friday",
+    "9:30 am – 6:30 pm"
+   ],
+   [
+    "Saturday",
+    "10:00 am – 4:00 pm"
+   ],
+   [
+    "Sunday",
+    "Closed"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "adyar-tile-gallery",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Adyar Tile Gallery",
+  "name_ta": "அடையாறு டைல் கேலரி",
+  "subtype": "Retail showroom",
+  "locality": "Adyar",
+  "since": 2006,
+  "description_en": "A tile showroom with floor, wall and outdoor tiles on display, and delivery across South and Central Chennai.",
+  "description_ta": "தரை, சுவர் மற்றும் வெளிப்புற டைல்ஸ் காட்சிக்கு வைக்கப்பட்டுள்ள காட்சியகம்; தென் மற்றும் மத்திய சென்னை முழுவதும் டெலிவரி.",
+  "portfolio": [
+   {
+    "image": "tile-showroom",
+    "title": "Showroom wall displays",
+    "meta": "Adyar, 2025",
+    "title_ta": "காட்சியகச் சுவர் அமைப்புகள்"
+   },
+   {
+    "image": "floor-tiles",
+    "title": "Floor tile samples",
+    "meta": "Adyar, 2025",
+    "title_ta": "தரை டைல் மாதிரிகள்"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ],
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "ambattur-building-materials",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Ambattur Building Materials",
+  "name_ta": "Ambattur Building Materials",
+  "subtype": "Retail showroom",
+  "locality": "Ambattur",
+  "since": 2008,
+  "description_en": "Cement, steel and paint for house construction, with site delivery across West Chennai.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "materials-yard",
+    "title": "Store front",
+    "meta": "Ambattur, 2024",
+    "title_ta": "கடை முகப்பு"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "aqua-bath-fittings",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Aqua Bath Fittings",
+  "name_ta": "Aqua Bath Fittings",
+  "subtype": "Retail showroom",
+  "locality": "Mylapore",
+  "since": 2010,
+  "description_en": "Sanitaryware and bathroom fittings showroom with working displays.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "bathroom",
+    "title": "Display bathroom",
+    "meta": "Mylapore, 2025",
+    "title_ta": "காட்சிக் குளியலறை"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ],
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "chennai-ceramic-depot",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Chennai Ceramic Depot",
+  "name_ta": "Chennai Ceramic Depot",
+  "subtype": "Distributor",
+  "locality": "Ambattur",
+  "since": 2002,
+  "description_en": "Distributor of tiles and sanitaryware for builders and homeowners, with bulk orders delivered from the Ambattur warehouse.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "floor-tiles",
+    "title": "Warehouse stock",
+    "meta": "Ambattur, 2025",
+    "title_ta": "கிடங்கு இருப்பு"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ],
+   [
+    "North Chennai",
+    "Perambur, Tondiarpet"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "Apr 2026"
+ },
+ {
+  "slug": "ennore-steel-cement-traders",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Ennore Steel & Cement Traders",
+  "name_ta": "எண்ணூர் ஸ்டீல் & சிமெண்ட் டிரேடர்ஸ்",
+  "subtype": "Distributor",
+  "locality": "Tondiarpet",
+  "since": 1995,
+  "description_en": "Steel and cement distributor for site deliveries in North Chennai.",
+  "description_ta": "வட சென்னையில் கட்டுமானத் தளங்களுக்கு டெலிவரி செய்யும் இரும்பு மற்றும் சிமெண்ட் விநியோகஸ்தர்.",
+  "portfolio": [
+   {
+    "image": "materials-yard",
+    "title": "Yard and stock",
+    "meta": "Tondiarpet, 2025",
+    "title_ta": "கிடங்கு மற்றும் இருப்பு"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "North Chennai",
+    "Perambur, Tondiarpet"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "floor-and-wall-traders",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Floor & Wall Traders",
+  "name_ta": "ஃப்ளோர் & வால் டிரேடர்ஸ்",
+  "subtype": "Retail showroom",
+  "locality": "Perungudi",
+  "since": 2014,
+  "description_en": "Floor and wall tiles, including large-format and outdoor tiles, for homes and offices along OMR.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "tile-showroom",
+    "title": "Showroom",
+    "meta": "Perungudi, 2024",
+    "title_ta": "காட்சியகம்"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "flowline-sanitaryware",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Flowline Sanitaryware",
+  "name_ta": "Flowline Sanitaryware",
+  "subtype": "Retail showroom",
+  "locality": "Thoraipakkam",
+  "since": 2017,
+  "description_en": "Bathroom fittings, sanitaryware and wall tiles for apartments along OMR.",
+  "description_ta": null,
+  "portfolio": [
+   {
+    "image": "bathroom",
+    "title": "Showroom bathroom",
+    "meta": "Thoraipakkam, 2025",
+    "title_ta": "காட்சியகக் குளியலறை"
+   }
+  ],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "OMR and ECR",
+    "Perungudi, Sholinganallur, Thoraipakkam"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "mosaic-corner",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Mosaic Corner",
+  "name_ta": "மொசைக் கார்னர்",
+  "subtype": "Retail showroom",
+  "locality": "T. Nagar",
+  "since": 1998,
+  "description_en": "A long-standing tile shop in T. Nagar stocking ceramic, vitrified and natural stone tiles.",
+  "description_ta": "தி. நகரில் நீண்ட காலமாக இயங்கும் டைல் கடை; செராமிக், விட்ரிஃபைட் மற்றும் இயற்கைக் கல் டைல்ஸ் கிடைக்கும்.",
+  "portfolio": [],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "Central Chennai",
+    "Mylapore, T. Nagar, Kilpauk"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "porur-sanitary-house",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Porur Sanitary House",
+  "name_ta": "போரூர் சானிட்டரி ஹவுஸ்",
+  "subtype": "Retail showroom",
+  "locality": "Porur",
+  "since": 2003,
+  "description_en": "Sanitaryware, pipes and plumbing fittings for homes in Porur and nearby areas.",
+  "description_ta": "போரூர் மற்றும் அருகிலுள்ள பகுதி வீடுகளுக்குச் சுகாதாரப் பொருட்கள், குழாய்கள், பிளம்பிங் பொருத்திகள்.",
+  "portfolio": [],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "West Chennai",
+    "Anna Nagar, Porur, Ambattur"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ },
+ {
+  "slug": "strongbase-cement-agencies",
+  "categories": [
+   "suppliers"
+  ],
+  "name_en": "Strongbase Cement Agencies",
+  "name_ta": "ஸ்ட்ராங்பேஸ் சிமெண்ட் ஏஜென்சீஸ்",
+  "subtype": "Distributor",
+  "locality": "Chromepet",
+  "since": 2012,
+  "description_en": "Cement dealer supplying contractors and homeowners in the southern suburbs.",
+  "description_ta": null,
+  "portfolio": [],
+  "specialisations": [],
+  "brands": [],
+  "zones": [
+   [
+    "South Chennai",
+    "Adyar, Velachery, Tambaram, Chromepet"
+   ]
+  ],
+  "credentials": [],
+  "hours": [
+   [
+    "Monday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Tuesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Wednesday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Thursday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Friday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Saturday",
+    "9:00 am – 8:00 pm"
+   ],
+   [
+    "Sunday",
+    "10:00 am – 2:00 pm"
+   ]
+  ],
+  "listed_since": "May 2026"
+ }
+]
