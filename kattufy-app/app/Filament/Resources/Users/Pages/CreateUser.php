@@ -6,7 +6,7 @@ use App\Filament\Resources\Users\UserResource;
 use App\Modules\Accounts\Enums\Role;
 use Filament\Resources\Pages\CreateRecord;
 
-/** Adds a staff member. They sign in at /admin/login/ with this mobile number and email. */
+/** Adds a staff member. They sign in at /login/ with this mobile number and email. */
 class CreateUser extends CreateRecord
 {
     protected static string $resource = UserResource::class;

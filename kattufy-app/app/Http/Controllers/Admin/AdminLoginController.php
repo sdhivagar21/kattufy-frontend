@@ -21,8 +21,9 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 
 /**
- * Super Admin sign-in, separate from the User/Provider flow:
- *   1. registered staff mobile number + email address
+ * Super Admin sign-in:
+ *   1. registered staff mobile number + email address (the main login form,
+ *      or this controller's own form)
  *   2. code sent to the mobile number
  *   3. a second, separate code sent to the email address
  * Only after both codes is the session allowed into the Filament panel.
@@ -73,7 +74,7 @@ class AdminLoginController extends Controller
         $flow = $this->flow(OtpPurpose::AdminLogin);
 
         if (! $flow) {
-            return redirect()->to(lroute('admin.login'));
+            return redirect()->to(lroute('login'));
         }
 
         return view('admin.verify', [
@@ -92,7 +93,7 @@ class AdminLoginController extends Controller
         $flow = $this->flow(OtpPurpose::AdminLogin);
 
         if (! $flow) {
-            return redirect()->to(lroute('admin.login'))->with('error', __('auth.verification_expired'));
+            return redirect()->to(lroute('login'))->with('error', __('auth.verification_expired'));
         }
 
         $result = $otp->check($flow['phone'], OtpPurpose::AdminLogin, $request->input('code'));
@@ -108,7 +109,7 @@ class AdminLoginController extends Controller
         } catch (OtpThrottled $e) {
             PendingVerification::forget();
 
-            return redirect()->to(lroute('admin.login'))->withErrors(['phone' => $this->throttleMessage($e)]);
+            return redirect()->to(lroute('login'))->withErrors(['phone' => $this->throttleMessage($e)]);
         }
 
         PendingVerification::start(OtpPurpose::AdminEmail, $flow['phone'], $user->id, ['mobile_verified_at' => now()->timestamp]);
@@ -121,7 +122,7 @@ class AdminLoginController extends Controller
         $flow = $this->flow(OtpPurpose::AdminEmail);
 
         if (! $flow) {
-            return redirect()->to(lroute('admin.login'));
+            return redirect()->to(lroute('login'));
         }
 
         $user = User::find($flow['user_id']);
@@ -142,7 +143,7 @@ class AdminLoginController extends Controller
         $flow = $this->flow(OtpPurpose::AdminEmail);
 
         if (! $flow || empty($flow['mobile_verified_at'])) {
-            return redirect()->to(lroute('admin.login'))->with('error', __('auth.verification_expired'));
+            return redirect()->to(lroute('login'))->with('error', __('auth.verification_expired'));
         }
 
         $result = $otp->check($flow['phone'], OtpPurpose::AdminEmail, $request->input('code'));
@@ -156,7 +157,7 @@ class AdminLoginController extends Controller
         if (! $user || ! $user->isStaff() || ! $user->isActive()) {
             PendingVerification::forget();
 
-            return redirect()->to(lroute('admin.login'))->withErrors(['phone' => __('auth.admin_no_match')]);
+            return redirect()->to(lroute('login'))->withErrors(['phone' => __('auth.admin_no_match')]);
         }
 
         PendingVerification::forget();
@@ -181,7 +182,7 @@ class AdminLoginController extends Controller
         $purpose = PendingVerification::purpose();
 
         if (! in_array($purpose, [OtpPurpose::AdminLogin, OtpPurpose::AdminEmail], true)) {
-            return redirect()->to(lroute('admin.login'));
+            return redirect()->to(lroute('login'));
         }
 
         $flow = PendingVerification::get();

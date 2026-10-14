@@ -140,10 +140,21 @@ class RegistrationAndLoginTest extends TestCase
         $this->assertSame(1, OtpCode::count());
     }
 
-    public function test_staff_cannot_use_the_member_login(): void
+    public function test_staff_use_the_same_login_and_still_need_both_codes(): void
     {
-        $this->post('/login', ['phone' => '9000000004', 'email' => 'admin@kattufy.demo'])->assertSessionHasErrors('phone');
-        $this->assertSame(0, OtpCode::count());
+        $this->get('/login/')->assertOk()->assertDontSee('Super Admin login');
+
+        $this->post('/login', ['phone' => '9000000004', 'email' => 'admin@kattufy.demo'])->assertRedirect(url('/admin/verify-mobile').'/');
+
+        // The member code step cannot finish a staff sign-in.
+        $this->post('/login/verify', ['code' => config('kattufy.demo_codes.mobile')]);
+        $this->assertGuest();
+
+        $this->post('/admin/verify-mobile', ['code' => config('kattufy.demo_codes.mobile')])->assertRedirect(url('/admin/verify-email').'/');
+        $this->assertGuest();
+
+        $this->post('/admin/verify-email', ['code' => config('kattufy.demo_codes.email')])->assertRedirect('/admin');
+        $this->assertAuthenticatedAs($this->demoUser('admin'));
     }
 
     public function test_tamil_login_lands_on_the_tamil_dashboard(): void

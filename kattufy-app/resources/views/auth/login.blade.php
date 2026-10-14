@@ -1,7 +1,8 @@
 {{--
     Step 2: existing accounts sign in with their registered mobile number and
     email. One entry point for everyone: after the code, the server sends a
-    customer, an approved provider or a provider under review to their own page.
+    customer, an approved provider or a provider under review to their own page,
+    and staff on to their email code and the admin panel.
 --}}
 <x-layouts.auth :title="__('auth.login_title')">
     {{-- Small brand lock-up (the phone layout already shows one in the top bar) --}}
@@ -49,15 +50,10 @@
     </form>
 
     {{-- Secondary actions --}}
-    <div class="mt-6 space-y-2 border-t border-line pt-5 text-sm">
+    <div class="mt-6 border-t border-line pt-5 text-sm">
         <p class="flex flex-wrap items-center gap-x-1.5 text-fg-muted">
             {{ __('auth.new_user') }}
             <a href="{{ lroute('register') }}" class="link inline-flex items-center gap-1">{{ __('auth.register_link') }} <x-ki name="arrow-right" class="size-3.5" /></a>
-        </p>
-        <p class="flex flex-wrap items-center gap-x-1.5 text-fg-subtle">
-            <x-ki name="lock" class="size-3.5" />
-            {{ __('auth.staff_only') }} —
-            <a href="{{ lroute('admin.login') }}" class="font-semibold text-fg-muted underline decoration-line-strong underline-offset-4 transition-colors hover:text-fg hover:decoration-amber">{{ __('auth.super_admin_login') }}</a>
         </p>
     </div>
 

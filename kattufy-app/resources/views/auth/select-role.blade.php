@@ -32,7 +32,7 @@
                 @if ($role === 'provider')
                     <p class="mt-5 rounded-control bg-surface-2 px-3.5 py-2.5 text-sm text-fg-muted">{{ __('auth.role_provider_note') }}</p>
                 @endif
-                <button type="submit" @class(['btn btn-lg mt-6 w-full', 'btn-primary' => $role === 'customer', 'btn-dark' => $role === 'provider']) :disabled="busy">
+                <button type="submit" class="btn btn-primary btn-lg mt-6 w-full" :disabled="busy">
                     {{ $button }} <x-ki name="arrow-right" class="size-5" />
                 </button>
             </form>

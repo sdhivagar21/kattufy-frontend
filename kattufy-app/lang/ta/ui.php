@@ -29,7 +29,6 @@ return [
     'login' => 'உள்நுழைய',
     'logout' => 'வெளியேற',
     'register' => 'பதிவு செய்ய',
-    'admin_login' => 'முதன்மை நிர்வாகி உள்நுழைவு',
     'account' => 'கணக்கு',
     'my_dashboard' => 'என் முகப்புப் பலகை',
     'find_services' => 'சேவைகளைக் கண்டறிய',
@@ -53,6 +52,7 @@ return [
 
     'area_user' => 'பயனர் பகுதி',
     'area_provider' => 'வழங்குநர் பகுதி',
+    'area_admin' => 'முதன்மை நிர்வாகி பகுதி',
     'nav_dashboard' => 'முகப்புப் பலகை',
     'nav_business_profile' => 'தொழில் சுயவிவரம்',
     'nav_business_details' => 'தொழில் விவரங்கள்',
