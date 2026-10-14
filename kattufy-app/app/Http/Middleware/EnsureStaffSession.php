@@ -27,6 +27,6 @@ class EnsureStaffSession extends Authenticate
 
     protected function redirectTo($request): ?string
     {
-        return route('admin.login');
+        return route('login');
     }
 }

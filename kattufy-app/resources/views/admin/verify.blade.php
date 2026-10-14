@@ -24,7 +24,7 @@
     </form>
 
     <div class="mt-5 flex flex-wrap items-center justify-between gap-3 text-sm">
-        <a href="{{ lroute('admin.login') }}" class="link">{{ __('auth.start_again') }}</a>
+        <a href="{{ lroute('login') }}" class="link">{{ __('auth.start_again') }}</a>
         <form method="POST" action="{{ lroute('admin.resend') }}" x-data="otpForm({ resendIn: {{ $resendIn }} })">
             @csrf
             <button type="submit" class="btn btn-ghost btn-sm" :disabled="resendIn > 0">

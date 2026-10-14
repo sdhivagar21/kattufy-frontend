@@ -23,7 +23,7 @@ use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 /**
  * The staff panel at /admin (Architecture §2). There is no Filament login
- * page: staff sign in at /admin/login/ with credentials, a mobile code and an
+ * page: staff sign in at /login/ with credentials, a mobile code and an
  * email code, and EnsureStaffSession checks that on every request.
  */
 class AdminPanelProvider extends PanelProvider
@@ -63,6 +63,8 @@ class AdminPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\Filament\Widgets')
             ->widgets([])
             ->renderHook(PanelsRenderHook::TOPBAR_START, fn () => view('filament.demo-badge'))
+            ->renderHook(PanelsRenderHook::SIDEBAR_NAV_START, fn () => view('filament.sidebar-profile'))
+            ->renderHook(PanelsRenderHook::SIDEBAR_NAV_END, fn () => view('filament.sidebar-logout'))
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,

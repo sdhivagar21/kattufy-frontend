@@ -34,7 +34,7 @@ class EntryAndAccessTest extends TestCase
             ->assertSee('No password: confirm your mobile number with a one-time code.')
             ->assertSee('தமிழ்')
             ->assertSee('themeToggle', false)
-            ->assertSee('Super Admin login')
+            ->assertDontSee('Super Admin login') // staff sign in through this same form
             ->assertSee('Create an account')
             // Compact demo notice instead of the old account list.
             ->assertSee('No real SMS or email is sent.')

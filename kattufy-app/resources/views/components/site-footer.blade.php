@@ -40,7 +40,6 @@
                     <ul class="mt-3 space-y-2 text-[0.95rem] text-white/75">
                         <li><a class="hover:text-white" href="{{ lroute('login') }}">{{ __('ui.login') }}</a></li>
                         <li><a class="hover:text-white" href="{{ lroute('register') }}">{{ __('ui.register') }}</a></li>
-                        <li><a class="hover:text-white" href="{{ lroute('admin.login') }}">{{ __('ui.admin_login') }}</a></li>
                     </ul>
                 </div>
                 <div></div>

@@ -29,7 +29,6 @@ return [
     'login' => 'Log in',
     'logout' => 'Log out',
     'register' => 'Register',
-    'admin_login' => 'Super Admin login',
     'account' => 'Account',
     'my_dashboard' => 'My dashboard',
     'find_services' => 'Find services',
@@ -53,6 +52,7 @@ return [
 
     'area_user' => 'User area',
     'area_provider' => 'Provider area',
+    'area_admin' => 'Super Admin area',
     'nav_dashboard' => 'Dashboard',
     'nav_business_profile' => 'Business profile',
     'nav_business_details' => 'Business details',

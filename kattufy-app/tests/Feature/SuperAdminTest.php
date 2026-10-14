@@ -23,20 +23,21 @@ class SuperAdminTest extends TestCase
         $admin = $this->demoUser('admin');
 
         $this->post('/admin/login', ['phone' => Phone::national($admin->phone), 'email' => $admin->email])->assertRedirect(url('/admin/verify-mobile').'/');
-        $this->get('/admin')->assertRedirect(route('admin.login'));
+        $this->get('/admin')->assertRedirect(route('login'));
 
         // The email step cannot be reached before the mobile code.
-        $this->get('/admin/verify-email/')->assertRedirect(url('/admin/login').'/');
+        $this->get('/admin/verify-email/')->assertRedirect(url('/login').'/');
 
         $this->post('/admin/verify-mobile', ['code' => '123456'])->assertRedirect(url('/admin/verify-email').'/');
         $this->assertGuest();
-        $this->get('/admin')->assertRedirect(route('admin.login'));
+        $this->get('/admin')->assertRedirect(route('login'));
 
         $this->post('/admin/verify-email', ['code' => '123456'])->assertSessionHasErrors('code'); // mobile code is not the email code
         $this->post('/admin/verify-email', ['code' => '654321'])->assertRedirect('/admin');
 
         $this->assertAuthenticatedAs($admin);
-        $this->get('/admin')->assertOk()->assertSee('Overview')->assertSee('Pending review');
+        $this->get('/admin')->assertOk()->assertSee('Overview')->assertSee('Pending review')
+            ->assertSee('Super Admin area')->assertSee('+91 90••• ••004')->assertSee(url('/admin/logout'), false);
     }
 
     public function test_wrong_admin_details_are_refused_without_sending_a_code(): void
@@ -49,12 +50,12 @@ class SuperAdminTest extends TestCase
     public function test_users_and_providers_cannot_open_the_admin_panel(): void
     {
         $this->loginThroughOtp('9000000001', 'user@kattufy.demo');
-        $this->get('/admin')->assertRedirect(route('admin.login'));
-        $this->get('/admin/providers')->assertRedirect(route('admin.login'));
+        $this->get('/admin')->assertRedirect(route('login'));
+        $this->get('/admin/providers')->assertRedirect(route('login'));
 
         $this->post('/logout');
         $this->loginThroughOtp('9000000002', 'provider@kattufy.demo');
-        $this->get('/admin/providers')->assertRedirect(route('admin.login'));
+        $this->get('/admin/providers')->assertRedirect(route('login'));
     }
 
     public function test_admin_pages_render(): void

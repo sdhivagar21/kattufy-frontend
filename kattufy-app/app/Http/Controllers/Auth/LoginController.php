@@ -18,7 +18,8 @@ use Illuminate\View\View;
 /**
  * Existing accounts sign in with their registered mobile number AND email.
  * Submitting the form only sends a code; the account is signed in after the
- * code is verified. No account is ever created here.
+ * code is verified. No account is ever created here. Staff use the same form
+ * and then continue to the Super Admin mobile and email codes.
  */
 class LoginController extends Controller
 {
@@ -45,22 +46,21 @@ class LoginController extends Controller
             return back()->withInput()->withErrors(['phone' => __('auth.no_matching_account')]);
         }
 
-        if ($user->isStaff()) {
-            return back()->withInput()->withErrors(['phone' => __('auth.staff_use_admin_login')]);
-        }
-
         if (! $user->isActive()) {
             return back()->withInput()->withErrors(['phone' => __('auth.account_unavailable')]);
         }
 
+        // Staff still need both the mobile and the email code (AdminLoginController).
+        $purpose = $user->isStaff() ? OtpPurpose::AdminLogin : OtpPurpose::Login;
+
         try {
-            $otp->send($phone, OtpPurpose::Login, $request->ip());
+            $otp->send($phone, $purpose, $request->ip());
         } catch (OtpThrottled $e) {
             return back()->withInput()->withErrors(['phone' => __('auth.throttle.'.$e->reason, ['seconds' => $e->retryAfterSeconds, 'minutes' => (int) ceil($e->retryAfterSeconds / 60)])]);
         }
 
-        PendingVerification::start(OtpPurpose::Login, $phone, $user->id);
+        PendingVerification::start($purpose, $phone, $user->id);
 
-        return redirect()->to(lroute('verify'));
+        return redirect()->to(lroute($user->isStaff() ? 'admin.verify-mobile' : 'verify'));
     }
 }
