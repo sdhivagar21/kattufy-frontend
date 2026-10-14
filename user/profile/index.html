@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="../../auth-gate.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>My Profile | Kattufy</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../../build/assets/app-DCZMAWA0.css">
+    <script type="module" src="../../build/assets/app-Cyw3-p0u.js"></script>
+    <style>@media (prefers-reduced-motion: reduce) { [x-transition] { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }</style>
+</head>
+<body class="flex min-h-dvh flex-col bg-paper">
+<header class="sticky top-0 z-40 bg-ink text-white shadow-raised">
+    <div class="mx-auto flex min-h-16 max-w-page items-center gap-4 px-4 sm:px-6 lg:px-8">
+        <a href="../dashboard/index.html" class="flex items-center gap-2 font-bold text-xl" aria-label="Kattufy dashboard"><img src="../../images/kattufy-mark.png" alt="" width="40" height="40"> Kattu<span class="text-amber">fy</span></a>
+        <a href="../dashboard/index.html" class="ml-auto hidden text-sm font-medium text-white/80 hover:text-white sm:inline">Dashboard</a>
+        <div class="flex items-center gap-2"><span id="header-avatar" class="flex size-9 items-center justify-center rounded-md bg-amber font-bold text-ink">D</span><span id="header-name" class="max-w-36 truncate text-sm font-semibold">Demo User</span></div>
+    </div>
+    <nav aria-label="Your account navigation" class="border-t border-white/10">
+        <div class="mx-auto flex max-w-page gap-2 overflow-x-auto px-4 sm:px-6 lg:px-8">
+            <a href="../dashboard/index.html" class="inline-flex h-12 shrink-0 items-center px-3 text-sm text-white/70 hover:text-white">Dashboard</a>
+            <a href="index.html" aria-current="page" class="inline-flex h-12 shrink-0 items-center border-b-2 border-amber px-3 text-sm font-semibold text-white">My Profile</a>
+            <a href="../../search/index.html" class="inline-flex h-12 shrink-0 items-center px-3 text-sm text-white/70 hover:text-white">Explore services</a>
+        </div>
+    </nav>
+</header>
+
+<main id="main" class="mx-auto w-full max-w-page flex-1 px-4 py-8 sm:px-6 lg:px-8">
+    <div class="mb-6 flex flex-wrap items-end justify-between gap-4">
+        <div><p class="text-sm font-semibold text-amber-700">YOUR ACCOUNT</p><h1 class="mt-1 text-3xl font-bold text-ink">My Profile</h1><p class="mt-2 max-w-2xl text-slate">View and update your account details. Profile changes are separate from your bookings and service activity.</p></div>
+        <a href="../dashboard/index.html" class="inline-flex min-h-11 items-center gap-2 rounded-control border border-line-strong bg-white px-4 font-semibold text-ink hover:bg-paper">← Back to dashboard</a>
+    </div>
+
+    <section class="overflow-hidden rounded-panel border border-line bg-white shadow-card">
+        <div class="flex flex-wrap items-center gap-4 border-b border-line bg-paper p-5 sm:p-7">
+            <span id="profile-avatar" class="flex size-16 items-center justify-center rounded-full bg-ink text-2xl font-bold text-amber">D</span>
+            <div class="min-w-0 flex-1"><h2 id="profile-heading" class="truncate text-xl font-semibold text-ink">Demo User</h2><p class="mt-1 text-sm text-slate">Kattufy user account</p></div>
+            <span class="rounded-full bg-success-soft px-3 py-1.5 text-sm font-semibold text-success-text">✓ Mobile verified</span>
+        </div>
+
+        <div id="profile-view" class="p-5 sm:p-7">
+            <dl class="grid gap-x-8 sm:grid-cols-2">
+                <div class="border-b border-line py-4"><dt class="text-sm text-slate">Full name</dt><dd id="view-name" class="mt-1 font-medium text-ink">Demo User</dd></div>
+                <div class="border-b border-line py-4"><dt class="text-sm text-slate">Mobile number</dt><dd class="mt-1 font-medium text-ink">+91 90••• ••001 <span class="text-emerald-700">✓</span></dd></div>
+                <div class="border-b border-line py-4"><dt class="text-sm text-slate">Email address</dt><dd id="view-email" class="mt-1 break-all font-medium text-ink">us•••@kattufy.demo</dd></div>
+                <div class="border-b border-line py-4"><dt class="text-sm text-slate">Location / address</dt><dd id="view-address" class="mt-1 font-medium text-ink">Not added</dd></div>
+                <div class="py-4"><dt class="text-sm text-slate">Account verification</dt><dd class="mt-1 font-medium text-ink">Mobile verified · 20 Sep 2026</dd></div>
+                <div class="py-4"><dt class="text-sm text-slate">Member since</dt><dd class="mt-1 font-medium text-ink">20 Sep 2026</dd></div>
+            </dl>
+            <div class="mt-5 flex flex-wrap gap-3 border-t border-line pt-5">
+                <button id="edit-button" type="button" class="inline-flex min-h-11 items-center gap-2 rounded-control bg-amber px-5 font-semibold text-ink hover:bg-amber-500">✎ Edit Profile</button>
+                <button id="share-button" type="button" class="inline-flex min-h-11 items-center gap-2 rounded-control border border-line-strong px-5 font-semibold text-ink hover:bg-paper">Share Profile</button>
+            </div>
+        </div>
+
+        <form id="profile-form" class="hidden space-y-5 p-5 sm:p-7" novalidate>
+            <label class="block"><span class="field-label">Full name</span><input id="name-input" name="name" required minlength="2" maxlength="120" autocomplete="name" class="input"></label>
+            <label class="block"><span class="field-label">Mobile number</span><input value="+91 90••• ••001" readonly class="input bg-paper"><span class="mt-1 block text-sm text-slate">Your login number is OTP verified. Contact support if it needs to change.</span></label>
+            <label class="block"><span class="field-label">Email address</span><input id="email-input" name="email" type="email" required maxlength="255" autocomplete="email" class="input"></label>
+            <label class="block"><span class="field-label">Location / address</span><input id="address-input" name="address" maxlength="255" autocomplete="street-address" class="input"></label>
+            <p class="text-sm text-slate">Preview changes are saved in this browser. The live Laravel app saves profile details to your account.</p>
+            <div class="flex justify-end gap-2 border-t border-line pt-5"><button id="cancel-button" type="button" class="inline-flex min-h-11 items-center rounded-control border border-line-strong px-5 font-semibold">Cancel</button><button type="submit" class="inline-flex min-h-11 items-center rounded-control bg-amber px-5 font-semibold text-ink">Save Changes</button></div>
+        </form>
+    </section>
+</main>
+
+<div id="share-dialog" class="fixed inset-0 z-50 hidden place-items-center bg-ink/60 p-4" role="dialog" aria-modal="true" aria-labelledby="share-title">
+    <section class="w-full max-w-lg rounded-panel bg-white p-6 shadow-raised"><div class="flex items-start justify-between gap-4"><div><h2 id="share-title" class="text-xl font-bold text-ink">Share Profile</h2><p class="mt-2 text-slate">Public customer profiles are not available yet, so there is no safe profile link to share.</p></div><button id="close-share" type="button" class="rounded-control px-3 py-2 hover:bg-paper" aria-label="Close">✕</button></div><p class="mt-4 rounded-control bg-paper p-4 text-sm text-slate">Your mobile number, email address and home address remain private. Nothing from this account will be shared.</p><div class="mt-5 flex justify-end"><button id="done-share" type="button" class="inline-flex min-h-11 items-center rounded-control bg-ink px-5 font-semibold text-white">Done</button></div></section>
+</div>
+<div id="save-message" class="fixed bottom-5 left-1/2 z-50 hidden -translate-x-1/2 rounded-control bg-ink px-5 py-3 font-medium text-white shadow-raised" role="status">Profile saved in this preview.</div>
+
+<script>
+(function () {
+    var key = 'kattufy-demo-profile';
+    var defaults = { name: 'Demo User', email: 'us•••@kattufy.demo', address: '' };
+    var memoryProfile = null;
+    function read() { try { return Object.assign({}, defaults, JSON.parse(localStorage.getItem(key) || '{}')); } catch (_) { return Object.assign({}, defaults, memoryProfile || {}); } }
+    function write(profile) { memoryProfile = profile; try { localStorage.setItem(key, JSON.stringify(profile)); } catch (_) {} }
+    function initials(name) { return (name.trim()[0] || 'U').toUpperCase(); }
+    function render() {
+        var p = read();
+        ['profile-heading', 'view-name'].forEach(function (id) { document.getElementById(id).textContent = p.name; });
+        document.getElementById('view-email').textContent = p.email;
+        document.getElementById('view-address').textContent = p.address || 'Not added';
+        ['profile-avatar', 'header-avatar'].forEach(function (id) { document.getElementById(id).textContent = initials(p.name); });
+        document.getElementById('header-name').textContent = p.name;
+    }
+    function edit(show) {
+        var p = read();
+        document.getElementById('profile-view').classList.toggle('hidden', show);
+        document.getElementById('profile-form').classList.toggle('hidden', !show);
+        if (show) {
+            document.getElementById('name-input').value = p.name;
+            document.getElementById('email-input').value = p.email.indexOf('•') >= 0 ? '' : p.email;
+            document.getElementById('address-input').value = p.address;
+        }
+    }
+    render();
+    document.getElementById('edit-button').addEventListener('click', function () { edit(true); });
+    document.getElementById('cancel-button').addEventListener('click', function () { edit(false); });
+    document.getElementById('profile-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        var name = document.getElementById('name-input').value.trim();
+        var email = document.getElementById('email-input').value.trim();
+        var address = document.getElementById('address-input').value.trim();
+        if (name.length < 2 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { this.reportValidity(); return; }
+        write({ name: name, email: email, address: address }); render(); edit(false);
+        var msg = document.getElementById('save-message'); msg.classList.remove('hidden'); setTimeout(function () { msg.classList.add('hidden'); }, 3000);
+    });
+    var dialog = document.getElementById('share-dialog');
+    document.getElementById('share-button').addEventListener('click', function () { dialog.classList.remove('hidden'); dialog.classList.add('grid'); });
+    function closeDialog() { dialog.classList.add('hidden'); dialog.classList.remove('grid'); }
+    document.getElementById('close-share').addEventListener('click', closeDialog);
+    document.getElementById('done-share').addEventListener('click', closeDialog);
+    dialog.addEventListener('click', function (event) { if (event.target === dialog) closeDialog(); });
+    document.addEventListener('keydown', function (event) { if (event.key === 'Escape') closeDialog(); });
+    var params = new URLSearchParams(location.search);
+    if (params.get('edit') === '1') edit(true);
+    if (params.get('share') === '1') { dialog.classList.remove('hidden'); dialog.classList.add('grid'); }
+})();
+</script>
+</body>
+</html>
