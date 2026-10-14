@@ -79,11 +79,11 @@
             <template x-if="isImage && previewUrl"><img :src="previewUrl" alt="" class="size-full object-cover"></template>
             <x-ki name="document" class="size-6 text-fg-subtle" x-show="!isImage" />
         </span>
-        <div class="min-w-0 flex-1">
-            <p class="truncate font-semibold" x-text="name"></p>
+        <div class="min-w-0 flex-1 basis-[11rem]">
+            <p class="truncate font-semibold" x-text="name" :title="name"></p>
             <p class="text-sm text-fg-muted"><span x-text="size"></span> · {{ __('provider.doc_ready_text') }}</p>
         </div>
-        <div class="flex flex-wrap gap-1">
+        <div class="flex flex-wrap gap-1 max-sm:basis-full">
             <a :href="previewUrl" target="_blank" rel="noopener" class="btn btn-ghost btn-sm"><x-ki name="eye" class="size-4" /> {{ __('provider.doc_preview') }}</a>
             <label for="{{ $name }}" class="btn btn-ghost btn-sm cursor-pointer"><x-ki name="refresh" class="size-4" /> {{ __('provider.doc_replace') }}</label>
             <button type="button" class="btn btn-ghost btn-sm text-danger-text hover:bg-danger-soft hover:text-danger-text" @click="clear()"><x-ki name="trash" class="size-4" /> {{ __('provider.doc_remove') }}</button>
